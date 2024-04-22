@@ -44,7 +44,7 @@ function install() {
 	local download_url
 	local checksum_url
 
-	local repo="hidetatz/kubecolor"
+	local repo="kubecolor/kubecolor"
 	local download_filename="kubecolor_${version}_${platform}_${arch}.tar.gz"
 	local checksum_filename="checksums.txt"
 
