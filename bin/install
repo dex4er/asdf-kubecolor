@@ -33,18 +33,19 @@ function install() {
 	local bin_install_path="${install_path}/bin"
 
 	local platform
-	platform=$(uname -s)
+	platform=$(uname -s | tr "[:upper:]" "[:lower:]")
 
 	local arch
 	arch=$(uname -m)
 	case "${arch}" in
 	aarch64) arch=arm64 ;;
+	x86_64) arch=amd64 ;;
 	esac
 
 	local download_url
 	local checksum_url
 
-	local repo="hidetatz/kubecolor"
+	local repo="kubecolor/kubecolor"
 	local download_filename="kubecolor_${version}_${platform}_${arch}.tar.gz"
 	local checksum_filename="checksums.txt"
 
