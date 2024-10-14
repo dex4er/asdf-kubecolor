@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/dex4er/asdf-kubecolor/actions/workflows/ci.yml/badge.svg)](https://github.com/dex4er/asdf-kubecolor/actions/workflows/ci.yml)
 
-[kubecolor](https://github.com/hidetatz/kubecolor) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
+[kubecolor](https://github.com/kubecolor/kubecolor) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 
 ## Install
 

@@ -18,7 +18,6 @@ function gh_curl() {
 }
 
 function install() {
-	# set -x
 	local install_type=$1
 	[[ ${install_type} != "version" ]] && echo "install type, ${install_type}, is not supported" && exit 1
 
